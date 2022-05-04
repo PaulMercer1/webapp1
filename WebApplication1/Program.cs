@@ -16,4 +16,5 @@ app.UseRouting();
 app.UseAuthorization();
 app.MapRazorPages();
 
+//Launch the website
 app.Run();
