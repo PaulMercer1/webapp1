@@ -14,11 +14,8 @@ if (!app.Environment.IsDevelopment())   //production code only
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.UseAuthorization();
-
 app.MapRazorPages();
 
 app.Run();
