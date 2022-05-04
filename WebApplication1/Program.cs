@@ -4,14 +4,14 @@ builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
-//Only in production env
+//Only in production environment
 if (!app.Environment.IsDevelopment())   
 {
     app.UseExceptionHandler("/Error");
     app.UseHsts();
 }
 
-//Add middleware
+//Add middle ware
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
