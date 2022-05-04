@@ -11,7 +11,6 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-//Add middle ware
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
