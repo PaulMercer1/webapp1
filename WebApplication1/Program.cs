@@ -4,7 +4,6 @@ builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
-//Only in production environment
 if (!app.Environment.IsDevelopment())   
 {
     app.UseExceptionHandler("/Error");
